@@ -244,7 +244,7 @@ def average_number_of_words(user_id ):
 #taking username as input
 insta_username=raw_input("please enter the username")
 print "\n"
-print "-*-*-*-*-*-*-*-*-*-*-\n"
+print "-*-*-*-*-*-*-*-*-*-*-*-*-\n"
 
 #menu
 print "a.Get own details\n"
