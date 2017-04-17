@@ -96,10 +96,9 @@ def get_users_recent_posts(insta_username):
             for recent in recent_posts["data"]:
 
                 print recent["images"]["standard_resolution"]["url"] , " has likes =" ,  recent["likes"]["count"]
-               # return recent_posts["data"][0]["id"]
-                #    print "post_id: " , recent_posts["data"][recent]["id"]
-           # print recent_posts["data"][0]["id"]
-            return recent_posts["data"][0]["id"]
+
+            return recent_posts["data"][0]["id"]   #returning post_id of latest post
+            #print "pp"
         else:
             print "No recents posts by this user"
     else:
